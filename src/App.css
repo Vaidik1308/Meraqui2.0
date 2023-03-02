@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  
+}
+.App {
+  width: 100%;
+  overflow-x: hidden;
+  /* margin: 0 auto ; */
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.slide{
+  height: 4px;
+  margin-bottom: 5px;
+}
+
+.swiper-button-prev:after{
+  position: relative !important;
+  top: 240px !important;
+  left:560px;
+  color: cyan;
+
+}
+.swiper-button-next:after{
+  position: relative !important;
+  top: 240px !important;
+  right:560px;
+  color: cyan;
+
+}
+.swiper-pagination-bullets {
+  display: none;}
+
+.swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal{
+  display: none;
+}
+.swiper-button-next{
+  
+}
